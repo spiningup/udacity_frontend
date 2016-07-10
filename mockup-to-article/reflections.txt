@@ -1,0 +1,9 @@
+You've learned a lot about web development so far. I want you to take a moment to write down your thoughts about web development here. Answer the following questions:
+  * What new skills have you learned?
+  * What has been easy?
+  * What has been difficult?
+  * How have you used the problem solving strategies from the first project to overcome challenges so far?
+
+---
+
+It has been quite easy so far because I already had basic understanding of html. The course is pretty refreshing and helped me to grasp some syntax I never used before, such as figure and figcaption. Nothing has been difficult so far. Since I didn't really have any problems, I haven't really used any problem solving skills, the only thing I was using to help me complete the project was to check the MDN reference. I'm looking forward to future projects!
