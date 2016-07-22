@@ -1,0 +1,37 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+h1, h2, h3 {
+    font-family: 'Lato', sans-serif;
+}
+
+h1 {
+    font-size: 3.5em;
+    font-weight: 300;
+}
+
+h2 {
+    font-weight: 400;
+    color: #7d97ad;
+}
+
+h4 {
+    font-weight: 400;
+}
+
+hr {
+    border: none;
+    height: 2px;
+    background-color: #7d97ad;
+    margin: 0 auto 15px auto;
+}
+
+img {
+    width: 100%;
+}
+
+img#logo{
+    width: 50px;
+    padding-top:10px;
+}
