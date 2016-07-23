@@ -1,9 +1,12 @@
 .container {
-    max-width: 800px;
+    max-width: 750px;
     margin: 0 auto;
 }
-h1, h2, h3 {
+
+h1, h2, h3, h4, p {
     font-family: 'Lato', sans-serif;
+    color: #2d3c49;
+    font-weight: 400;
 }
 
 h1 {
@@ -12,12 +15,7 @@ h1 {
 }
 
 h2 {
-    font-weight: 400;
     color: #7d97ad;
-}
-
-h4 {
-    font-weight: 400;
 }
 
 hr {
@@ -31,7 +29,18 @@ img {
     width: 100%;
 }
 
-img#logo{
+#logo{
     width: 50px;
     padding-top:10px;
+}
+
+@media screen and (max-width: 768px) {
+  article {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #7d97ad;
+  }
+
+  article:last-of-type {
+    border-bottom: 0;
+  }
 }
