@@ -3,6 +3,8 @@
     margin: 0 auto;
 }
 
+/* text */
+
 h1, h2, h3, h4, p {
     font-family: "Lato", sans-serif;
     color: #2d3c49;
@@ -25,6 +27,8 @@ hr {
     margin: 0 auto 15px auto;
 }
 
+/* image */
+
 img {
     width: 100%;
 }
@@ -33,6 +37,8 @@ img {
     width: 50px;
     padding-top:10px;
 }
+
+/* responsive */
 
 @media screen and (max-width: 768px) {
   article {
