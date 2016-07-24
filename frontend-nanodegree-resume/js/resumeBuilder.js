@@ -6,26 +6,49 @@ var bio = {
     "mobile": "650-704-1227",
     "email": "mouseyan@gmail.com",
     "githup": "spiningup",
-    "twitter": "JunYan22",
-    "location": "Palo Alto"
+    "twitter": "@JunYan22",
+    "location": "Palo Alto, CA"
   },
-  "welcomeMsg": "Welcome to my site !",
+  "welcomeMessage": "Welcome to my site !",
   "skills": ["python", "html"],
-  "pic": "images/me.jpeg",
+  "biopic": "images/me.jpeg",
 };
 
-var work = {};
-work.position = "Data Scientist";
-work.employer = "AT&T";
-work.years = 2;
-work.city = "Palo Alto";
+var work = {
+  "jobs": [
+    {
+      "employer": "AT&T",
 
-var education = {};
-education["name"] = "Stanford";
-education["years"] = "2011-2014";
-education["city"] = "Stanford";
-education["degree"] = "Postdoc";
+    }
+  ]
+};
 
+var education = {
+  "schools": [
+    {
+      "name": "Stanford",
+      "location": "Stanford, CA",
+      "degree": "Postdoc",
+      "major": "Chemical Engineering",
+      "years": "2011-2014"
+    },
+    {
+      "name": "DTU",
+      "location": "Lyngby, Denmark",
+      "degree": "Postdoc",
+      "major": "Physics",
+      "years": "2009-2011"
+    }
+  ],
+  "onlineCourses": [
+    {
+      "title": "Udacity web developer nanodegree",
+      "school": "Udacity",
+      "dates": 2016,
+      "url": "https:www.udacity.com"
+    }
+  ]
+};
 // $("#header").prepend(HTMLbioPic.replace("%data%", bio.picurl));
 // $("#header").prepend(HTMLwelcomeMsg.replace("%data%", bio.welcomeMsg));
 // $("#header").prepend(HTMLheaderRole.replace("%data%", bio.role));
