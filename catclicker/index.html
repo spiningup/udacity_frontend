@@ -4,6 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <title>Cat clicker</title>
+    <style>
+      #admin-form {
+        display: None;
+      }
+    </style>
 </head>
 <body>
   <div>
@@ -13,6 +18,18 @@
       <h2 id="cat-name"></h2>
       <div id="cat-count"></div>
       <img id="cat-img" src="" alt="cat"/>
+    </div>
+    <div id="admin">
+      <button id="btn-admin">Admin</button>
+      <form id="admin-form">
+        <fieldset>
+          cat-name: <input id="input-name" type="text"><br>
+          cat-url : <input id="input-url" type="text"><br>
+          cat-clicks: <input id="input-clicks" type="text"><br>
+          <button id="btn-save">Save</button>
+          <button id="btn-cancel">Cancel</button>
+        </fieldset>
+      </form>
     </div>
   </div>
 
